@@ -1,5 +1,3 @@
-# CFD_Projet_Dedalus
-
 # Informations sur ce dépôt
 
 - Ce projet a été réalisé dans le cadre du cours de M2 de Computational Fluid Dynamics à l'ENS de Lyon
