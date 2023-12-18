@@ -14,7 +14,7 @@
 2. Exemple de la base de Fourrier : référence pour les problèmes périodiques
 3. Exemples des Polynômes de Chebyshev : premier aperçu de la famille
 
-> Remarque importantes :
+> Remarques importantes :
 > - Représentation spectrale numérique des fonctions
 > - Calcul de produit matriciel
 > - Notion de matrice dense et de matrice creuse/sparse
@@ -27,9 +27,8 @@
 > - Choix de la base d'essaie et la base de test
 > - Diagonalité d'un matrice diagoanle décalée 
 
-### 1.3. Minimisation de l'erreur et imposition des conditions aux bords
-1. Notion de résidu : erreur numérique
-2. La méthode de "collocation" : approximation aux points spécifiques du domaine
-3. **Méthode "tau"** : résolution exacte par ajout de termes
+### 1.3. Prise en compte des conditions aux bords
+1. La méthode de "collocation" : approximation aux points spécifiques du domaine
+2. Méthode "tau" : résolution exacte par ajout de termes
 
 ### 1.4 Résumé de la section
