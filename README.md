@@ -30,6 +30,6 @@
 ### 1.3. Minimisation de l'erreur et imposition des conditions aux bords
 1. Notion de résidu : erreur numérique
 2. La méthode de "collocation" : approximation aux points spécifiques du domaine
-3. Méthode "tau" : résolution exacte par ajout de termes
+3. **Méthode "tau"** : résolution exacte par ajout de termes
 
 ### 1.4 Résumé de la section
