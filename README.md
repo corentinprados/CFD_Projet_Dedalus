@@ -2,7 +2,7 @@
 
 - Ce projet a été réalisé dans le cadre du cours de M2 de Computational Fluid Dynamics à l'ENS de Lyon
 - Il est décomposé en N Notebook résumé ci-dessous
-- 
+  
 ## Objectifs du projet
 L'objectif de l'ensemble des Jupyter Notebooks de ce projet est de fournir une compréhension approfondie des bases algorithmiques sous-jacentes au projet Dedalus.
 
@@ -51,7 +51,7 @@ L'objectif de l'ensemble des Jupyter Notebooks de ce projet est de fournir une c
 > - RHS, attention au terme ajouté
 > - Permutation des lignes dans la représentation matricielle
 
-# 2.2. Méthode de recombinaison de Dirichlet 
+### 2.2. Méthode de recombinaison de Dirichlet 
 1. Conditions de Dirichlet et de Neumann
 2. Préconditionnement de Dirichlet
 3. Retour sur l'exemple de la dérivée d'ordre un
@@ -61,18 +61,29 @@ L'objectif de l'ensemble des Jupyter Notebooks de ce projet est de fournir une c
 > - Expression des conditions aux limites
 > - Matrice à bande
 
-# 2.3 Systèmes d'équations au-delà du premier ordre
-1. Introduction : changement de point de vue 
+### 2.3 Systèmes d'équations au-delà du premier ordre
+1. Introduction : changement de point de vue
+
    a. Principe : d'une équation d'ordre $N$ à $N$ équations d'ordre un
+   
    b. Exemple : l'équation de Poisson
-   c. Généralisation à tout système 
-2. Résolution des systèmes sous forme d'équations du premier ordre
+   
+   c. Généralisation à tout système
+   
+3. Résolution des systèmes sous forme d'équations du premier ordre
+   
    a. Principe de base : une méthode en six étapes
+   
    b. Exemple : Retour sur l'équation de Poisson
+   
    c. Généralisation : Application de la méthode bloc par bloc
-3. Renversement de produit de Kronecker
+   
+5. Renversement de produit de Kronecker
+   
    a. Définitions : Produit de Kronecker et matrices élementaires
+   
    b. Rédaction alternative de la méthode bloc par bloc
+   
    c. Application au résultat de l'équation de Poisson
 
    
