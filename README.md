@@ -43,18 +43,18 @@ Il convient de souligner que les notations employées dans ce projet ne suivent 
 
 ## 0. Introduction
 - Introduction du README
-1. Motivations
-2. Références
-3. Construction du projet
-4. Remarque sur la notation du projet
+> 1. Motivations
+> 2. Références
+> 3. Construction du projet
+> 4. Remarque sur la notation du projet
 - Résumé succint du framework
 - État de l'art
-1. Les différentes méthodes numériques
-2. Pourquoi le projet Dedalus ?
+> 1. Les différentes méthodes numériques
+> 2. Pourquoi le projet Dedalus ?
 - Zoom sur le papier associé au projet Dedalus
-1. Table des matières 
-2. Références
-3. Citations
+> 1. Table des matières 
+> 2. Références
+> 3. Citations
    
 
 ## 1. Fondamentaux sur les méthodes spectrales
@@ -150,7 +150,7 @@ Il convient de souligner que les notations employées dans ce projet ne suivent 
 
 # 4. Conclusion du projet 
 - Conclusion globale
-- Remarques importantes
-1. Dedalus version 2 et version 3
-2. À propos des polynômes de Chebyshev
+> Remarques importantes :
+> - Dedalus version 2 et version 3
+> - À propos des polynômes de Chebyshev
 - Notes personnelles sur le projet
