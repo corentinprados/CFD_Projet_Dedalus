@@ -1,7 +1,7 @@
 # Informations sur ce dépôt
 
 - Ce projet a été réalisé dans le cadre du cours de M2 de Computational Fluid Dynamics à l'ENS de Lyon
-- Il est centré autour du framework Dedalus.
+- Il est centré autour du framework Dedalus et a pour but d'expliquer la méthode spectrale utilisée dans celui-ci.
 - Il est décomposé en N Notebook résumé ci-dessous dans la tables des matières 
   
 # Motivations
@@ -32,17 +32,30 @@ Les Jupyter Notebooks rédigés ont donc pour objectif de détailler et d'expliq
 
 Ce travail a été réalisé de manière individuelle, il est donc probablement incomplet et peut contenir des erreurs (y compris dans la compréhension des notions). Les notebooks ont été construits selon le cheminement intellectuel que j'ai suivi pour comprendre les prémices de la méthode tau. La construction des notebooks est progressive, ajoutant peu à peu chaque notion utile pour finalement arriver à la méthode globale utilisée.
 
-Le papier étant riche en informations, ce projet se limite à la partie "SPARSE SPECTRAL METHODS". La partie "Fundamentals of spectral methods" est traité dans le notebook "1_Fondamentaux_sur_les_méthodes_spectrales" et celle nommée "A general sparse tau method" dans le notebook "2_Methode_tau_generale_avec_matrices_creuses".
+Le papier étant riche en informations, ce projet se limite à la partie "SPARSE SPECTRAL METHODS". La partie "Fundamentals of spectral methods" est traité dans le notebook "1_Fondamentaux_sur_les_méthodes_spectrales" et celle nommée "A general sparse tau method" dans le notebook "2_Methode_tau_generale_avec_matrices_creuses". Le notebook "3_Reproduction_figure_papier_Dedalus.ipynb" n'est pas indispensable au projet. Il offre une vision d'ensemble de la partie un et de la partie deux, tout en examinant quelques détails non essentiels.
 
-**À terminer**
+# Remarque sur la notation du projet
 
+Il convient de souligner que les notations employées dans ce projet ne suivent pas de conventions standard. Ce sont des choix arbitraires qui ont été adoptés au cours du développement du projet.
 
 
 # Tables des matières 
 
 ## 0. Introduction
-- Les différentes méthodes numériques
-- Pourquoi le projet Dedalus ?
+- Introduction du README
+1. Motivations
+2. Références
+3. Construction du projet
+4. Remarque sur la notation du projet
+- Résumé succint du framework
+- État de l'art
+1. Les différentes méthodes numériques
+2. Pourquoi le projet Dedalus ?
+- Zoom sur le papier associé au projet Dedalus
+1. Table des matières 
+2. Références
+3. Citations
+   
 
 ## 1. Fondamentaux sur les méthodes spectrales
 
@@ -122,3 +135,22 @@ Le papier étant riche en informations, ce projet se limite à la partie "SPARSE
 
    
 ### 1.4 Résumé de la partie
+
+
+
+## 3. Reproduction d'une figure des auteurs
+1. Construction naïve de la méthode spectrale
+2. Construction de la méthode de Galerkin associée à la méthode tau
+3. Construction de blocs à bandes par le préconditionnement de Dirichlet
+4. Construction d'une matrice globale à bande par le renversement du produit de Kronecker
+5. Conclusion sur cette brève partie
+   
+> Remarques importantes :
+> - Importance de cette partie
+
+# 4. Conclusion du projet 
+- Conclusion globale
+- Remarques importantes
+1. Dedalus version 2 et version 3
+2. À propos des polynômes de Chebyshev
+- Notes personnelles sur le projet
