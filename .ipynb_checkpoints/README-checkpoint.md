@@ -81,7 +81,7 @@ Il convient de souligner que les notations employées dans ce projet ne suivent 
 1. La méthode de "collocation" : approximation aux points spécifiques du domaine
 2. Méthode "tau" : résolution exacte par ajout de termes
 
-### 1.4 Résumé de la partie
+### 1.4. Résumé de la partie
 
 
 
@@ -108,7 +108,7 @@ Il convient de souligner que les notations employées dans ce projet ne suivent 
 > - Expression des conditions aux limites
 > - Matrice à bande
 
-### 2.3 Systèmes d'équations au-delà du premier ordre
+### 2.3. Systèmes d'équations au-delà du premier ordre
 1. Introduction : changement de point de vue
 
    a. Principe : d'une équation d'ordre $N$ à $N$ équations d'ordre un
@@ -154,3 +154,28 @@ Il convient de souligner que les notations employées dans ce projet ne suivent 
 1. Dedalus version 2 et version 3
 2. À propos des polynômes de Chebyshev
 - Notes personnelles sur le projet
+
+# 5. Bonus : Application de la méthode à un exemple dynamique
+
+### 5.1. Objectif de la partie : amorcer une approche vers une simulation.
+1. Note sur cette partie bonus
+2. Ce que nous avons fait jusque-là
+3. Cadre : à la recherche de simplicité
+
+### 5.2. Cas d'une boîte aux conditions aux limites périodiques
+1. Étapes de la résolution : méthode spectrale classique 
+2. Résultats de la simulation : concluant
+3. Commentaires
+
+### 5.3. Cas d'une boîte fermé
+1. Étapes de la résolution : méthode tau
+2. Résultats de la simulation : décevant
+3. Commentaires
+
+### 5.4. Résumé de la partie
+
+> Remarques importantes :
+> - Premier problème, erreur de calcul ?
+> - Second problème, une erreur dans le code ?
+> - Notes personnelles
+> - Termes non linéaires
