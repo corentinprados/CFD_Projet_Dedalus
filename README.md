@@ -134,7 +134,7 @@ Il convient de souligner que les notations employées dans ce projet ne suivent 
    c. Application au résultat de l'équation de Poisson
 
    
-### 1.4 Résumé de la partie
+### 2.4. Résumé de la partie
 
 
 
@@ -148,14 +148,14 @@ Il convient de souligner que les notations employées dans ce projet ne suivent 
 > Remarques importantes :
 > - Importance de cette partie
 
-# 4. Conclusion du projet 
+## 4. Conclusion du projet 
 - Conclusion globale
 - Remarques importantes
 1. Dedalus version 2 et version 3
 2. À propos des polynômes de Chebyshev
 - Notes personnelles sur le projet
 
-# 5. Bonus : Application de la méthode à un exemple dynamique
+## 5. Bonus : Application de la méthode à un exemple dynamique
 
 ### 5.1. Objectif de la partie : amorcer une approche vers une simulation.
 1. Note sur cette partie bonus
