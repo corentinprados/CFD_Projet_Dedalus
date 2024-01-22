@@ -167,7 +167,7 @@ Il convient de souligner que les notations employées dans ce projet ne suivent 
 2. Résultats de la simulation : concluant
 3. Commentaires
 
-### 5.3. Cas d'une boîte fermé
+### 5.3. Cas d'une boîte fermée
 1. Étapes de la résolution : méthode tau
 2. Résultats de la simulation : décevant
 3. Commentaires
